@@ -1,0 +1,5 @@
+koa/repository/TempValueRepository.class
+koa/controller/TempValueController.class
+koa/App.class
+koa/controller/WebController.class
+koa/models/TempValue.class
