@@ -13,7 +13,7 @@ public class TempValue {
 
     @Id
     @Column(name = "ID", nullable = false)
-//    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private long Id;
 
     @Column(name = "timestamp")
