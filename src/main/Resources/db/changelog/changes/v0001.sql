@@ -1,5 +1,8 @@
+
 create table "user" (
-  id varchar(255) not null,
-  name varchar(50) not null,
+  id int(255) not null,
+  temp int(50) not null,
+  up
+
   primary key (id)
 );
