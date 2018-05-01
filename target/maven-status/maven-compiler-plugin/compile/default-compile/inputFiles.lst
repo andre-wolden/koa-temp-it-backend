@@ -1,5 +1,5 @@
-/Users/andre.wolden/coding/egne/temp/temp-backend/src/main/java/koa/controller/TempValueController.java
-/Users/andre.wolden/coding/egne/temp/temp-backend/src/main/java/koa/models/TempValue.java
-/Users/andre.wolden/coding/egne/temp/temp-backend/src/main/java/koa/App.java
-/Users/andre.wolden/coding/egne/temp/temp-backend/src/main/java/koa/repository/TempValueRepository.java
-/Users/andre.wolden/coding/egne/temp/temp-backend/src/main/java/koa/controller/WebController.java
+/Users/andre.wolden/coding/egne/koa-temp-it/koa-temp-it-backend/src/main/java/koa/controller/WebController.java
+/Users/andre.wolden/coding/egne/koa-temp-it/koa-temp-it-backend/src/main/java/koa/repository/TempValueRepository.java
+/Users/andre.wolden/coding/egne/koa-temp-it/koa-temp-it-backend/src/main/java/koa/models/TempValue.java
+/Users/andre.wolden/coding/egne/koa-temp-it/koa-temp-it-backend/src/main/java/koa/App.java
+/Users/andre.wolden/coding/egne/koa-temp-it/koa-temp-it-backend/src/main/java/koa/controller/TempValueController.java
