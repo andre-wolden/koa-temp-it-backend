@@ -37,13 +37,13 @@ public class TempValueController {
     public String newTempValue(@RequestBody String value) {
 
         TempValue newTempValue = new TempValue();
-        newTempValue.setTemp(Long.parseLong(value));
+        newTempValue.setTemp(Double.parseDouble(value));
         newTempValue.setTimestamp(LocalDateTime.now());
         newTempValue.setUploaded(false);
 
         tempValueRepository.save(newTempValue);
 
-        System.out.println(value.toString());
+        System.out.println(value);
 
         return "Registration of new value succeeded.";
     }

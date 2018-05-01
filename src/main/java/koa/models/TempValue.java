@@ -21,7 +21,7 @@ public class TempValue {
     LocalDateTime timestamp;
 
     @Column(name="temp")
-    private long temp;
+    private double temp;
 
     @Column(name="uploaded")
     private boolean isUploaded;
@@ -42,11 +42,11 @@ public class TempValue {
         this.timestamp = timestamp;
     }
 
-    public long getTemp() {
+    public double getTemp() {
         return temp;
     }
 
-    public void setTemp(long temp) {
+    public void setTemp(double temp) {
         this.temp = temp;
     }
 
@@ -57,6 +57,4 @@ public class TempValue {
     public void setUploaded(boolean uploaded) {
         isUploaded = uploaded;
     }
-
-
 }
